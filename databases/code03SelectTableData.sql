@@ -5,31 +5,31 @@
 select * from vehicles;
 
 -- My custom examples (01/10)
-select vehCode as vehicleCode, vehModel as vehicleModel, mark as vehicleMark from vehicles;
+select vehicleCode as vehicleCode, vehicleModel as vehicleModel, vehicleMark as vehicleMark from vehicles;
 
 -- (02/10)
-select vehCode, vehModel, mark from vehicles;
+select vehicleCode, vehicleModel, vehicleMark from vehicles;
 
 -- (03/10)
-select vehCode as vehicleRegister from vehicles;
+select vehicleCode as vehicleRegister from vehicles;
 
 -- (04/10)
-select vehCode as vehicleNumber, vehModel as vehicleModels from vehicles;
+select vehicleCode as vehicleNumber, vehicleModel as vehicleModels from vehicles;
 
 -- (05/10)
-select vehCode as vehicleSerial, vehModel as specifiedModel, mark as manufacturer from vehicles;
+select vehicleCode as vehicleSerial, vehicleModel as specifiedModel, vehicleMark as manufacturer from vehicles;
 
 -- (06/10)
-select vehCode as carID, mark as createdBy from vehicles;
+select vehicleCode as carID, vehicleMark as createdBy from vehicles;
 
 -- (07/10)
-select vehCode as IDValue, vehModel as modelName from vehicles;
+select vehicleCode as IDValue, vehicleModel as modelName from vehicles;
 
 -- (08/10)
-select mark as storedCarsMark from vehicles;
+select vehicleMark as storedCarsMark from vehicles;
 
 -- (09/10)
-select vehModel as garageModels from vehicles;
+select vehicleModel as garageModels from vehicles;
 
 -- (10/10)
-select vehCode as premiumCarsCodes, vehModel as premiumCarsModels, mark as premiumCarsMarks from vehicles;
+select vehicleCode as premiumCarsCodes, vehicleModel as premiumCarsModels, vehicleMark as premiumCarsMarks from vehicles;

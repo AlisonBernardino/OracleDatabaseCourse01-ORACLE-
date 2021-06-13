@@ -2,34 +2,34 @@
 -- Code 04 - "Order by" command
 
 -- Code example
-select * from vehicles order by mark asc;
+select * from vehicles order by vehicleMark asc;
 
 -- My custom examples (1/10)
-select * from vehicles order by vehCode desc;
+select * from vehicles order by vehicleCode desc;
 
 -- My custom examples (2/10)
-select * from vehicles order by vehModel asc;
+select * from vehicles order by vehicleModel asc;
 
 -- My custom examples (3/10)
-select * from vehicles order by vehCode, vehModel desc;
+select * from vehicles order by vehicleCode, vehicleModel desc;
 
 -- My custom examples (4/10)
-select * from vehicles order by vehModel, mark asc;
+select * from vehicles order by vehicleModel, vehicleMark asc;
 
 -- My custom examples (5/10)
-select vehCode from vehicles order by vehCode desc;
+select vehicleCode from vehicles order by vehicleCode desc;
 
 -- My custom examples (6/10)
-select vehModel from vehicles order by vehModel asc;
+select vehicleModel from vehicles order by vehicleModel asc;
 
 -- My custom examples (7/10)
-select mark from vehicles order by mark desc;
+select vehicleMark from vehicles order by vehicleMark desc;
 
 -- My custom examples (8/10)
-select vehCode, vehModel from vehicles order by vehCode asc;
+select vehicleCode, vehicleModel from vehicles order by vehicleCode asc;
 
 -- My custom examples (9/10)
-select vehModel, mark from vehicles order by vehModel desc;
+select vehicleModel, vehicleMark from vehicles order by vehicleModel desc;
 
 -- My custom examples (10/10)
-select mark from vehicles order by mark asc;
+select vehicleMark from vehicles order by vehicleMark asc;

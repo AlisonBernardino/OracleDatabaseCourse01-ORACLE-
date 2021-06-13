@@ -8,9 +8,9 @@
 -- (00/10) - Based on course example
 create table vehicles
 (
-vehCode integer,
-vehModel varchar2(40),
-mark varchar2(30)
+vehicleCode integer,
+vehicleModel varchar2(40),
+vehicleMark varchar2(30)
 );
 
 -- (01/10)

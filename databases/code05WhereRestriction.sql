@@ -2,34 +2,34 @@
 -- Code 05 - "Where" restriction command
 
 -- Example 00 - Based on course example 
-select * from vehicles where mark = 'Ferrari';
+select * from vehicles where vehicleMark = 'Ferrari';
 
 -- My custom examples (1/10)
-select * from vehicles where vehCode = 1;
+select * from vehicles where vehicleCode = 1;
 
 -- (02/10)
-select * from vehicles where vehModel = 'Levante';
+select * from vehicles where vehicleModel = 'Levante';
 
 -- (03/10)
-select vehModel from vehicles where vehModel = 'R-34 Skyline';
+select vehicleModel from vehicles where vehicleModel = 'R-34 Skyline';
 
 -- (04/10)
-select mark from vehicles where mark = 'Maserati';
+select vehicleMark from vehicles where vehicleMark = 'Maserati';
 
 -- (05/10)
-select vehCode as Code, vehModel as Model from vehicles where vehCode = 3;
+select vehicleCode as Code, vehicleModel as Model from vehicles where vehicleCode = 3;
 
 -- (06/10)
-select vehModel as Model, mark as Mark from vehicles where mark = 'BMW';
+select vehicleModel as Model, vehicleMark as Mark from vehicles where vehicleMark = 'BMW';
 
 -- (07/10)
-select mark as Mark from vehicles where vehCode = 2;
+select vehicleMark as Mark from vehicles where vehicleCode = 2;
 
 -- (08/10)
-select vehModel as Model, mark as Mark from vehicles where vehModel = '320i';
+select vehicleModel as Model, vehicleMark as Mark from vehicles where vehicleModel = '320i';
 
 -- (09/10)
-select vehCode as Code, vehModel as Model from vehicles where vehCode = 3;
+select vehicleCode as Code, vehicleModel as Model from vehicles where vehicleCode = 3;
 
 -- (10/10)
-select vehCode as Code, vehModel as Model, mark as Mark where mark = 'Ferrari';
+select vehicleCode as Code, vehicleModel as Model, vehicleMark as Mark where vehicleMark = 'Ferrari';
