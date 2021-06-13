@@ -1,7 +1,8 @@
 -- Oracle course - Select Tech 
 -- Code 02 - Inser table rows
 
--- Course example
+-- My custom examples
+-- (00/10) - Based on course example
 insert into vehicles( 
     vehCode, vehModel, mark) 
 values(01,'Ghibli','Maserati');
